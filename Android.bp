@@ -45720,6 +45720,15 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
+    name: "thermal-mediatek.xml",
+    owner: "xiaomi",
+    src: "proprietary/vendor/etc/vintf/manifest/thermal-mediatek.xml",
+    filename_from_src: true,
+    sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+prebuilt_etc_xml {
     name: "vendor.xiaomi.hardware.displayfeature@1.0-service.xml",
     owner: "xiaomi",
     src: "proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.displayfeature@1.0-service.xml",
@@ -46639,6 +46648,37 @@ cc_prebuilt_binary {
                 "vendor.mediatek.hardware.mtkradioex.se-V1-ndk",
                 "libc++",
                 "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.thermal-service.mediatek",
+    owner: "xiaomi",
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/bin/hw/android.hardware.thermal-service.mediatek",
+            ],
+            shared_libs: [
+                "libbinder_ndk",
+                "libc",
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libhardware",
+                "libbase",
+                "libc++",
                 "libm",
                 "libdl",
             ],
