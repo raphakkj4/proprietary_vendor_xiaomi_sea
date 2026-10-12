@@ -266,6 +266,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sea/proprietary/vendor/etc/gralloc/gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gpu.xml \
     vendor/xiaomi/sea/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
     vendor/xiaomi/sea/proprietary/vendor/etc/init.insmod.mt6781.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6781.cfg \
+    vendor/xiaomi/sea/proprietary/vendor/etc/init/android.hardware.audio.service-aidl.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service-aidl.mediatek.rc \
     vendor/xiaomi/sea/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.rc \
     vendor/xiaomi/sea/proprietary/vendor/etc/init/android.hardware.gatekeeper-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper-service.beanpod.rc \
     vendor/xiaomi/sea/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
@@ -507,6 +508,7 @@ PRODUCT_PACKAGES += \
     AVCSecureVdecCA \
     HEVCSecureVdecCA \
     VP9SecureVdecCA \
+    android.hardware.audio.core-impl-mediatek \
     android.hardware.bluetooth.audio-impl-mediatek \
     arm.graphics-V5-ndk \
     arm.mali.platform-V2-ndk \
@@ -520,6 +522,7 @@ PRODUCT_PACKAGES += \
     gc02m1_macro_aac_mipi_raw_tuning \
     gc02m1_macro_ofilm_mipi_raw_IdxMgr \
     gc02m1_macro_ofilm_mipi_raw_tuning \
+    android.hardware.audio.effect.aidl-impl-mediatek \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.graphics.allocator-V2-mediatek \
@@ -1661,6 +1664,8 @@ PRODUCT_PACKAGES += \
     com.android.hardware.cas \
     com.google.android.widevine.nonupdatable \
     com.fingerprints.extension \
+    android.hardware.audio.effect.service-aidl.xml \
+    android.hardware.audio.service-aidl.mediatek.xml \
     android.hardware.cas@1.2-service.xml \
     android.hardware.gatekeeper-service.beanpod.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
@@ -1691,6 +1696,7 @@ PRODUCT_PACKAGES += \
     fuelgauged_nvram \
     gsm0710muxd \
     hostapd_cli \
+    android.hardware.audio.service-aidl.mediatek \
     android.hardware.cas@1.2-service \
     android.hardware.contexthub-service.tinysys \
     android.hardware.gatekeeper-service.beanpod \
