@@ -30345,7 +30345,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libpqsharememory",
+    name: "libpqsharememory_mtk",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -30353,7 +30353,7 @@ cc_prebuilt_library_shared {
     target: {
         android_arm: {
             srcs: [
-                "proprietary/vendor/lib/libpqsharememory.so",
+                "proprietary/vendor/lib/libpqsharememory_mtk.so",
             ],
             shared_libs: [
                 "libutils",
@@ -30371,7 +30371,7 @@ cc_prebuilt_library_shared {
         },
         android_arm64: {
             srcs: [
-                "proprietary/vendor/lib64/libpqsharememory.so",
+                "proprietary/vendor/lib64/libpqsharememory_mtk.so",
             ],
             shared_libs: [
                 "libutils",
@@ -30407,7 +30407,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "liblog",
-                "libpqsharememory",
+                "libpqsharememory_mtk",
                 "libc++",
                 "libc",
                 "libm",
@@ -30421,7 +30421,7 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libutils",
                 "liblog",
-                "libpqsharememory",
+                "libpqsharememory_mtk",
                 "libc++",
                 "libc",
                 "libm",
@@ -32462,7 +32462,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/mt6781/libdpframework.so",
             ],
             shared_libs: [
-                "libpqsharememory",
+                "libpqsharememory_mtk",
                 "libpqtuning",
                 "libhidlbase",
                 "libhidlmemory",
@@ -32491,7 +32491,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6781/libdpframework.so",
             ],
             shared_libs: [
-                "libpqsharememory",
+                "libpqsharememory_mtk",
                 "libpqtuning",
                 "libhidlbase",
                 "libhidlmemory",

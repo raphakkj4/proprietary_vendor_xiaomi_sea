@@ -1259,7 +1259,7 @@ PRODUCT_PACKAGES += \
     libpq_cust_base \
     libpqframework \
     libpqhdrmetaparser \
-    libpqsharememory \
+    libpqsharememory_mtk \
     libpqtuning \
     libpqxmlparser \
     librgbwlightsensor \
