@@ -40595,7 +40595,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmnl",
+    name: "libmnl_vendor",
+    stem: "libmnl",
     owner: "xiaomi",
     strip: {
         none: true,
@@ -47311,7 +47312,7 @@ cc_prebuilt_binary {
                 "proprietary/vendor/bin/mnld",
             ],
             shared_libs: [
-                "libmnl",
+                "libmnl_vendor",
                 "libcurl",
                 "libcutils",
                 "libnvram",

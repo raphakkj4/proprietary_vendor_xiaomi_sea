@@ -1508,7 +1508,7 @@ PRODUCT_PACKAGES += \
     libmibokeh_mt6873 \
     libmipc \
     libmiriskmanager_isee \
-    libmnl \
+    libmnl_vendor \
     libmpbase \
     libmsnr \
     libmtk-fusion-ril-prop-vsim \
