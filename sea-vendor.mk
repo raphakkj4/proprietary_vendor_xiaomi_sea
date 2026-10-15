@@ -1160,7 +1160,7 @@ PRODUCT_PACKAGES += \
     libfgauge_gm30 \
     libfile_op \
     libflatmode \
-    libformatter \
+    libformatter_vendor \
     libfsmsmartpaparse \
     libgamehdr \
     libged \

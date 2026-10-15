@@ -24248,7 +24248,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_hidl@1.0",
                 "libcodec2_hidl@1.1",
                 "libcodec2_hidl@1.2",
-                "libformatter",
+                "libformatter_vendor",
                 "libdpframework",
                 "android.hardware.graphics.bufferqueue@2.0",
                 "android.hardware.media.bufferpool2-V2-ndk",
@@ -24303,7 +24303,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_hidl@1.0",
                 "libcodec2_hidl@1.1",
                 "libcodec2_hidl@1.2",
-                "libformatter",
+                "libformatter_vendor",
                 "libdpframework",
                 "android.hardware.graphics.bufferqueue@2.0",
                 "android.hardware.media.bufferpool2-V2-ndk",
@@ -24371,7 +24371,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_hidl@1.0",
                 "libcodec2_hidl@1.1",
                 "libcodec2_hidl@1.2",
-                "libformatter",
+                "libformatter_vendor",
                 "libdpframework",
                 "android.hardware.graphics.bufferqueue@2.0",
                 "android.hardware.media.bufferpool2-V2-ndk",
@@ -24424,7 +24424,7 @@ cc_prebuilt_library_shared {
                 "libcodec2_hidl@1.0",
                 "libcodec2_hidl@1.1",
                 "libcodec2_hidl@1.2",
-                "libformatter",
+                "libformatter_vendor",
                 "libdpframework",
                 "android.hardware.graphics.bufferqueue@2.0",
                 "android.hardware.media.bufferpool2-V2-ndk",
@@ -25672,7 +25672,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libformatter",
+    name: "libformatter_vendor",
+    stem: "libformatter",
     owner: "xiaomi",
     strip: {
         none: true,
