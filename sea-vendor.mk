@@ -1677,7 +1677,6 @@ PRODUCT_PACKAGES += \
     mtkpower_applist-mtk-default.xml \
     power-mediatek.xml \
     thermal-mediatek.xml \
-    vendor.xiaomi.hardware.displayfeature@1.0-service.xml \
     vendor.xiaomi.hardware.micharge.xml \
     vendor.xiaomi.hw.touchfeature-service.xml \
     batterysecret \
